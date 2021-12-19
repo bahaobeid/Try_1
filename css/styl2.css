@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(150, 230, 47);
+  } 
+
+
+/* ------------------------------ */
+/* the nav bar style */
+
+
+  nav ul{
+    background-color: rgba(16, 62, 122, 0.76); 
+    font-family: 'Aclonica';
+    font-size: 16px;
+    list-style: none;
+    height: 40px;
+    padding-left: 10px; 
+    padding-top: 10px; 
+    border-radius: 10%;
+    border-color: rgb(150, 230, 47);
+    border-style: dotted;
+    border-width: 3px; 
+  }
+  
+  nav ul li {
+    display: inline;
+    padding-left: 20px; 
+     ;
+  }
+  
+  .nav a:link, .nav a:visited {
+    color: white;
+    text-decoration: none;
+   }
+  
+  .nav a:hover {
+      color: rgb(9, 37, 13);
+      text-decoration: none
+     }  
+  
+  #help { 
+    color: blueviolet;
+    background-color: rgb(150, 230, 47);
+    padding: 05px 10px;
+    margin-right: 10px;
+    float: right;
+    border-style: dotted;
+    border-color: rgba(16, 62, 122, 0.76);
+    border-radius: 10px;
+    padding-top: -10px ;
+    cursor: help;
+  
+  }
+  
+  #help a:link,a:visited{color: rgba(16, 62, 122, 0.76);}
+  #help a:hover{color: cornsilk;}
+  /* end of  navigation bar style */
+  
+  /* ------------------------------ */
+  /* ------------------------------ */
+
+  main{width: 60%;
+float: left;
+margin: 2%;}
+
+aside{
+float: right;
+width: 25%;
+background-color: white;
+color: white;
+border-radius: 10%;
+    border-color: rgb(150, 230, 47);
+    border-style: dotted;
+    margin: 2%;
+}
+h2{font-family: Aldrich;
+    background-color: rgba(7, 48, 58, 0.76) ;
+color: white;
+padding: 5px;
+padding-left: 50px;
+width: 40%;
+border-width: 3px;
+border-style: dotted;
+border-color:white;}
+
+.backgroundpara{
+    background-color: white;
+    padding: 01%;
+    border-width: 3px;
+    border-radius: 10%;
+    border-color: rgb(150, 230, 47);
+    border-style: dotted;
+}
+
+main div div{
+    padding: 1%;
+    font-family: "Aclonica";
+    color: rgb(71, 30, 11);
+}
+
+aside div{
+    background-color: rgba(7, 48, 58, 0.76);
+    padding: 1%;
+    font-family: "Aclonica";
+    color: white;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 10%;
+    border-color: white;
+    border-style: dotted;
+
+}
